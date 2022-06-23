@@ -1,5 +1,9 @@
+body{ 
+    font-family: cursive;
+}
+
 header { 
-    background-color: rgb(53, 33, 33); 
+    background-color: rgb(53, 33, 33);  
     height: 100px;
     display: flex;
     justify-content: space-between;
@@ -9,7 +13,7 @@ header {
  .menu { 
   color: white;
   font-size: 25px;
-  margin-top: 3rem;
+  margin-top: 2rem;
   
  }
 
@@ -23,14 +27,23 @@ header {
   padding-bottom: 20px;
   font-weight: 900;
   font-size: 40px;
+  
  }
+
+a:link {
+    color: white;
+    text-decoration: none;
+}
+a:hover {
+    color:darkred;
+}
+a:visited {
+    color:purple;
+}
 
  h1 {
     text-align: center; 
     color: azure;
- }
- h3{
-    font-family: cursive;
  }
 
  .About {
@@ -51,4 +64,10 @@ header {
     background-color: rgb(53, 33, 33);
     border-radius: 5px;
     padding-left: 20px;
+ }
+ footer {
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: small;
+    font-weight: 200;
  }
