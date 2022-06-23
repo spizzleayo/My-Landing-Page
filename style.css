@@ -44,6 +44,10 @@ a:visited {
     color: azure;
  }
 
+ h4 {
+   font-weight: 300;
+ }
+
  .About {
     display: flex;
     color: azure;
