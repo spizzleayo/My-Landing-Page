@@ -1,0 +1,19 @@
+header { 
+    background-color: rgb(53, 33, 33); 
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    padding-right: 2rem;
+}
+
+ .menu { 
+  color: white;
+  font-size: 25px;
+  margin-top: 3rem;
+  
+ }
+
+
+ .image {
+    padding-top: 0.5rem;
+ }
