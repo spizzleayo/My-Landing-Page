@@ -28,16 +28,8 @@ header {
  }
 
 a:link {
-    color: white;
-    text-decoration: none;
+   text-decoration: none ;
 }
-a:hover {
-    color:darkred;
-}
-a:visited {
-    color:purple;
-}
-
  h1 {
     text-align: center; 
     color: azure;
