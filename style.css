@@ -5,6 +5,7 @@ header {
     display: flex;
     justify-content: space-between;
     padding-right: 2rem;
+    padding-left: 2rem;
 }
 
  .menu { 
@@ -28,8 +29,16 @@ header {
  }
 
 a:link {
-   text-decoration: none ;
+   color: white;
+   text-decoration: none;
 }
+a:hover {
+   color:darkred;
+}
+a:visited {
+   color:purple;
+}
+
  h1 {
     text-align: center; 
     color: azure;
